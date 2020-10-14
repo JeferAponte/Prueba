@@ -1,10 +1,11 @@
 import java.util.Scanner;
-public class Prueba
-{ 
-	public static void main (String [] args) 
+public class Scanner1
+{
+	public static void main(String [] args)
 	{
-        String nombre = "Jeferson Salazar Aponte";
-		System.out.println("");
-		System.out.println("Hola Mundo, Bienvenido: "+nombre);
-    }
+		Scanner sc = new Scanner(System.in);
+		System.out.println("\nDigite su nombre: ");
+		String nombre_completo = sc.nextLine();
+		System.out.println("\nBienvenido: "+nombre_completo);
+	}
 }
